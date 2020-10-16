@@ -143,7 +143,7 @@ const sketch3 = function (p) {
       rightEye.y2
     );
 
-    p.strokeWeight(15);
+    p.strokeWeight(18);
     p.ellipse((canvasWidth / 16) * 5.5, leftEye.y1, 1);
     p.ellipse((canvasWidth / 16) * 10.5, rightEye.y1, 1);
   };
