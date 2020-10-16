@@ -21,3 +21,19 @@
   width: 50%;
   height: 50vh;
 }
+
+#image1 {
+  border-right: 4px solid;
+  border-bottom: 4px solid;
+}
+
+#image2 {
+  border-bottom: 4px solid;
+}
+
+/* #image3 {
+} */
+
+#image4 {
+  border-left: 4px solid;
+}
