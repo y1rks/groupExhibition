@@ -1,4 +1,8 @@
 const sketch4 = function (p) {
+  const mouthThreshold = 80;
+  const eyeThreshold = 80;
+  const eyeSize = 18;
+
   let canvasWidth;
   let canvasHeight;
 
@@ -101,7 +105,7 @@ const sketch4 = function (p) {
     p.noFill();
 
     // 口
-    updatePoints(mouth, canvasHeight * 0.4);
+    updatePoints(mouth, mouthThreshold);
 
     p.bezier(
       mouth.x1,
@@ -116,7 +120,7 @@ const sketch4 = function (p) {
 
     // 左目
 
-    updatePoints(leftEye, canvasHeight * 0.3);
+    updatePoints(leftEye, eyeThreshold);
 
     p.bezier(
       leftEye.x1,
@@ -130,7 +134,7 @@ const sketch4 = function (p) {
     );
 
     // 右目
-    updatePoints(rightEye, canvasHeight * 0.3);
+    updatePoints(rightEye, eyeThreshold);
 
     p.bezier(
       rightEye.x1,
@@ -143,7 +147,7 @@ const sketch4 = function (p) {
       rightEye.y2
     );
 
-    p.strokeWeight(18);
+    p.strokeWeight(eyeSize);
     p.ellipse((canvasWidth / 16) * 5.5, leftEye.y1, 1);
     p.ellipse((canvasWidth / 16) * 10.5, rightEye.y1, 1);
   };
