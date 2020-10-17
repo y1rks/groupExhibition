@@ -1,5 +1,5 @@
 const sketch2 = function (p) {
-  const mouthThreshold = 80;
+  const mouthThreshold = 110;
   const eyeThreshold = 80;
   const eyeSize = 18;
 
