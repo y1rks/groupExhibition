@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: black;
 }
 
 .main {
@@ -12,8 +13,20 @@ body {
 
 #container1 {
   /* height: 100%; */
+  border-right: 2px solid black;
 }
 
 #container2 {
   /* height: 100%; */
+  border-left: 2px solid black;
+}
+
+#container3 {
+  /* height: 100%; */
+  border-right: 2px solid black;
+}
+
+#container4 {
+  /* height: 100%; */
+  border-left: 2px solid black;
 }
