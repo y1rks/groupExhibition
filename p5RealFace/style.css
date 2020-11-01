@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
 .main {
   /*
   比率は実際の環境に合わせて調整をする
