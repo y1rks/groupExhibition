@@ -2,6 +2,10 @@
   display: none;
 }
 
+body {
+  background-color: black;
+}
+
 .main {
   /*
   比率は実際の環境に合わせて調整をする
