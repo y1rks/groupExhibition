@@ -8,7 +8,7 @@ function mainProcess() {
   const img3 = document.getElementById("image3");
   const img4 = document.getElementById("image4");
 
-  if (blackCount > 60) {
+  if (blackCount > 80) {
     img1.src = "./images/black/black.bmp";
     img2.src = "./images/black/black.bmp";
     img3.src = "./images/black/black.bmp";
@@ -45,7 +45,7 @@ function mainProcess() {
     }
   }
 
-  if (blackCount > 90) {
+  if (blackCount > 110) {
     blackCount = 0;
   }
 
